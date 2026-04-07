@@ -1,0 +1,651 @@
+
+================================================================================
+TEST CASE 1 - 2026-04-07 16:44:13
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+Bạn có muốn tôi gợi ý một số địa điểm du lịch nổi tiếng tại Việt Nam không?
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 16:44:25
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+Max steps reached
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 16:44:36
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+Dựa trên thông tin bạn cung cấp, tôi đã tìm thấy một số lựa chọn phù hợp. Chuyến bay từ Hà Nội đi Phú Quốc có giá khoảng 1.5 triệu đồng cho mỗi chiều. Khách sạn ở Phú Quốc với 2 đêm có thể nằm trong khoảng 3-4 triệu đồng. Tổng cộng, chi phí cho chuyến đi của bạn sẽ rơi vào khoảng 5 triệu đồng. Bạn có muốn tôi tìm thêm thông tin về lịch trình cụ thể không?
+================================================================================
+
+================================================================================
+TEST CASE 4 - 2026-04-07 16:45:02
+Query: Tôi muốn đặt khách sạn
+Output:
+Bạn muốn đặt khách sạn ở thành phố nào? Bao nhiêu đêm và ngân sách khoảng bao nhiêu?
+================================================================================
+
+================================================================================
+TEST CASE 5 - 2026-04-07 16:45:19
+Query: Giải giúp tôi bài tập lập trình Python về linked list
+Output:
+Max steps reached
+================================================================================
+
+================================================================================
+TEST CASE 1 - 2026-04-07 16:47:09
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+Với ngân sách 5 triệu VND, bạn có thể dành khoảng 1,710,000 VND để mua sắm và thưởng thức các hoạt động giải trí tại Đà Nẵng. Chi tiết chi phí như sau:
+
+- Vé máy bay: 890,000 VND
+- Khách sạn: 2,400,000 VND
+
+Hy vọng thông tin này hữu ích cho bạn! Nếu bạn cần thêm thông tin hoặc có bất kỳ câu hỏi nào khác, hãy để lại bình luận nhé. Chúc bạn có một chuyến đi vui vẻ tại Đà Nẵng!
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 16:47:26
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+Tôi đã tìm thấy một số lựa chọn cho bạn:
+
+1. Chuyến bay của Vietnam Airlines, khởi hành lúc 08:00 và đến Đà Nẵng lúc 09:25.
+2. Chuyến bay của Vietjet Air, khởi hành lúc 10:30 và đến Đà Nẵng lúc 11:40.
+3. Chuyến bay của Jetstar Pacific, khởi hành lúc 13:00 và đến Đà Nẵng lúc 14:15.
+4. Chuyến bay của Vietnam Airlines, khởi hành lúc 16:00 và đến Đà Nẵng lúc 17:25.
+
+Bạn có muốn tôi giúp bạn đặt vé trên một trong những chuyến bay này không?
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 16:47:47
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+Tôi đã tìm được một số lựa chọn cho bạn:
+
+### Chuyến bay từ Hà Nội đi Phú Quốc:
+1. **Vietjet Air**: Giá vé khoảng 800,000 VNĐ.
+2. **Vietnam Airlines**: Giá vé khoảng 1,500,000 VNĐ.
+3. **Jetstar Pacific**: Giá vé khoảng 900,000 VNĐ.
+4. **Air Asia**: Giá vé khoảng 1,200,000 VNĐ.
+
+### Khách sạn tại Phú Quốc:
+1. **Sun Plaza Grand Hotel** - Giá phòng khoảng 850,000 VNĐ/đêm.
+2. **Mường Thanh Luxury Resort & Spa** - Giá phòng khoảng 700,000 VNĐ/đêm.
+3. **Park Hyatt Phu Quoc Resort** - Giá phòng khoảng 1,200,000 VNĐ/đêm.
+
+### Chi phí dự kiến:
+- Chuyến bay: 800,000 x 2 = 1,600,000 VNĐ
+- Khách sạn: 850,000 x 2 = 1,700,000 VNĐ
+
+Tổng cộng: 1,600,000 + 1,700,000 = 3,300,000 VNĐ
+
+Bạn có thể chọn chuyến bay và khách sạn phù hợp với ngân sách của mình. Chúc bạn旅途愉快！
+================================================================================
+
+================================================================================
+TEST CASE 1 - 2026-04-07 16:51:21
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+🤖 Agent: Xin chào! Tôi là Travel Buddy, rất vui được đồng hành cùng bạn. 
+
+Để tôi có thể gợi ý những điểm đến phù hợp nhất, bạn có thể chia sẻ thêm một chút sở thích không? Ví dụ như bạn muốn đi biển, đi núi, hay khám phá thành phố? Bạn dự định đi trong bao lâu và ngân sách dự kiến của bạn khoảng bao nhiêu?
+
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 16:51:27
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "06:00",
+        "arrival": "07:20",
+        "price": 1450000,
+        "class": "economy"
+      },
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "14:00",
+        "arrival": "15:20",
+        "price": 2800000,
+        "class": "business"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "08:30",
+        "arrival": "09:50",
+        "price": 890000,
+        "class": "economy"
+      },
+      {
+        "airline": "Bamboo Airways",
+        "departure": "11:00",
+        "arrival": "12:20",
+        "price": 1200000,
+        "class": "economy"
+      }
+    ]
+  }
+]
+🤖 Agent: Chào bạn! Tôi là Travel Buddy, trợ lý du lịch của bạn. Rất vui được hỗ trợ bạn lên kế hoạch cho chuyến đi sắp tới.
+
+Bạn đã có dự định đi đâu chưa, hay cần tôi gợi ý một vài điểm đến thú vị tại Việt Nam? Hãy cho tôi biết nếu bạn cần tìm chuyến bay, khách sạn hoặc tính toán ngân sách nhé!
+
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 16:51:36
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "07:00",
+        "arrival": "09:15",
+        "price": 2100000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "10:00",
+        "arrival": "12:15",
+        "price": 1350000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "16:00",
+        "arrival": "18:15",
+        "price": 1100000,
+        "class": "economy"
+      }
+    ]
+  },
+  {
+    "tool": "search_hotels_tool",
+    "result": [
+      {
+        "name": "Vinpearl Resort",
+        "stars": 5,
+        "price_per_night": 3500000,
+        "area": "Bãi Dài",
+        "rating": 4.4
+      },
+      {
+        "name": "Sol by Melia",
+        "stars": 4,
+        "price_per_night": 1500000,
+        "area": "Bãi Trường",
+        "rating": 4.2
+      },
+      {
+        "name": "Lahana Resort",
+        "stars": 3,
+        "price_per_night": 800000,
+        "area": "Dương Đông",
+        "rating": 4.0
+      },
+      {
+        "name": "9Station Hostel",
+        "stars": 2,
+        "price_per_night": 200000,
+        "area": "Dương Đông",
+        "rating": 4.5
+      }
+    ]
+  }
+]
+🤖 Agent: Chào bạn! Tôi là Travel Buddy, trợ lý du lịch của bạn. Rất vui được hỗ trợ bạn lên kế hoạch cho chuyến đi sắp tới.
+
+Bạn đã có dự định đi đâu chưa, hay cần tôi gợi ý một vài địa điểm thú vị tại Việt Nam? Hãy cho tôi biết điểm đến, thời gian và ngân sách dự kiến của bạn nhé!
+
+================================================================================
+
+================================================================================
+TEST CASE 4 - 2026-04-07 16:51:40
+Query: Tôi muốn đặt khách sạn
+Output:
+🤖 Agent: Chào bạn! Tôi rất sẵn lòng hỗ trợ bạn tìm khách sạn cho chuyến đi sắp tới.
+
+Để tôi có thể tìm được lựa chọn phù hợp nhất, bạn vui lòng cho tôi biết thêm một vài thông tin nhé:
+1. Bạn muốn đặt khách sạn ở **thành phố** nào?
+2. Bạn dự định ở trong **mấy đêm**?
+3. **Ngân sách** dự kiến của bạn cho khách sạn là bao nhiêu?
+
+================================================================================
+
+================================================================================
+TEST CASE 5 - 2026-04-07 16:51:45
+Query: Giải giúp tôi bài tập lập trình Python về linked list
+Output:
+🤖 Agent: Rất tiếc, tôi là Travel Buddy - trợ lý chuyên về du lịch. Tôi không thể hỗ trợ các vấn đề về lập trình. Nếu bạn cần lên kế hoạch cho một chuyến đi, hãy cho tôi biết nhé!
+
+================================================================================
+
+================================================================================
+TEST CASE 1 - 2026-04-07 16:52:58
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+🤖 Agent: Xin chào! Tôi là Travel Buddy, rất vui được đồng hành cùng bạn. 
+
+Để tôi có thể tư vấn địa điểm phù hợp nhất, bạn có thể chia sẻ thêm một chút sở thích không? Ví dụ như bạn muốn đi biển để nghỉ dưỡng, đi vùng núi để săn mây, hay muốn khám phá ẩm thực tại các thành phố lớn? Ngoài ra, bạn dự định đi trong bao lâu và ngân sách khoảng bao nhiêu nhé!
+
+================================================================================
+
+================================================================================
+TEST CASE 1 - 2026-04-07 17:03:55
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+🤖 Agent: Xin chào! Tôi là Travel Buddy, rất vui được đồng hành cùng bạn. 
+
+Để tôi có thể gợi ý những điểm đến phù hợp nhất, bạn có thể chia sẻ thêm một chút sở thích không? Ví dụ như bạn muốn đi biển để nghỉ dưỡng, lên núi để săn mây, hay đi tham quan các di tích lịch sử? Ngoài ra, bạn dự định đi trong bao lâu và từ thành phố nào?
+
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 17:04:00
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "06:00",
+        "arrival": "07:20",
+        "price": 1450000,
+        "class": "economy"
+      },
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "14:00",
+        "arrival": "15:20",
+        "price": 2800000,
+        "class": "business"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "08:30",
+        "arrival": "09:50",
+        "price": 890000,
+        "class": "economy"
+      },
+      {
+        "airline": "Bamboo Airways",
+        "departure": "11:00",
+        "arrival": "12:20",
+        "price": 1200000,
+        "class": "economy"
+      }
+    ]
+  }
+]
+🤖 Agent: Chào bạn! Tôi là Travel Buddy, trợ lý du lịch của bạn. Tôi có thể giúp bạn tìm chuyến bay, khách sạn và tính toán ngân sách cho chuyến đi.
+
+Bạn đã có kế hoạch đi đâu chưa, hay cần tôi gợi ý điều gì không?
+
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 17:04:06
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "07:00",
+        "arrival": "09:15",
+        "price": 2100000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "10:00",
+        "arrival": "12:15",
+        "price": 1350000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "16:00",
+        "arrival": "18:15",
+        "price": 1100000,
+        "class": "economy"
+      }
+    ]
+  }
+]
+🤖 Agent: Chào bạn! Tôi là Travel Buddy, trợ lý du lịch của bạn. Bạn đang lên kế hoạch cho chuyến đi sắp tới ở đâu thế? Hãy cho tôi biết điểm đến, thời gian và ngân sách dự kiến để tôi có thể hỗ trợ bạn tìm kiếm chuyến bay và khách sạn tốt nhất nhé!
+
+================================================================================
+
+================================================================================
+TEST CASE 4 - 2026-04-07 17:04:10
+Query: Tôi muốn đặt khách sạn
+Output:
+🤖 Agent: Chào bạn! Tôi rất sẵn lòng giúp bạn tìm khách sạn cho chuyến đi sắp tới.
+
+Để tôi có thể tìm được lựa chọn phù hợp nhất, bạn vui lòng cho tôi biết:
+1. Bạn muốn ở thành phố nào?
+2. Bạn dự định ở trong bao nhiêu đêm?
+3. Ngân sách dự kiến của bạn cho khách sạn là bao nhiêu?
+
+================================================================================
+
+================================================================================
+TEST CASE 5 - 2026-04-07 17:04:13
+Query: Giải giúp tôi bài tập lập trình Python về linked list
+Output:
+🤖 Agent: Rất tiếc, tôi là Travel Buddy - trợ lý chuyên về du lịch Việt Nam, nên tôi không thể hỗ trợ các vấn đề về lập trình được. 
+
+Nếu bạn cần lên kế hoạch du lịch, tìm chuyến bay hay khách sạn, hãy cho tôi biết nhé!
+
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 17:28:09
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "06:00",
+        "arrival": "07:20",
+        "price": 1450000,
+        "class": "economy"
+      },
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "14:00",
+        "arrival": "15:20",
+        "price": 2800000,
+        "class": "business"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "08:30",
+        "arrival": "09:50",
+        "price": 890000,
+        "class": "economy"
+      },
+      {
+        "airline": "Bamboo Airways",
+        "departure": "11:00",
+        "arrival": "12:20",
+        "price": 1200000,
+        "class": "economy"
+      }
+    ]
+  }
+]
+🤖 Agent: Dưới đây là các chuyến bay từ Hà Nội đến Đà Nẵng:
+- Vietnam Airlines | 06:00 - 07:20 | economy | 1,450,000 VND
+- Vietnam Airlines | 14:00 - 15:20 | business | 2,800,000 VND
+- VietJet Air | 08:30 - 09:50 | economy | 890,000 VND
+- Bamboo Airways | 11:00 - 12:20 | economy | 1,200,000 VND
+
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 17:28:12
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "07:00",
+        "arrival": "09:15",
+        "price": 2100000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "10:00",
+        "arrival": "12:15",
+        "price": 1350000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "16:00",
+        "arrival": "18:15",
+        "price": 1100000,
+        "class": "economy"
+      }
+    ]
+  },
+  {
+    "tool": "search_hotels_tool",
+    "result": [
+      {
+        "name": "Vinpearl Resort",
+        "stars": 5,
+        "price_per_night": 3500000,
+        "area": "Bãi Dài",
+        "rating": 4.4
+      },
+      {
+        "name": "Sol by Melia",
+        "stars": 4,
+        "price_per_night": 1500000,
+        "area": "Bãi Trường",
+        "rating": 4.2
+      },
+      {
+        "name": "Lahana Resort",
+        "stars": 3,
+        "price_per_night": 800000,
+        "area": "Dương Đông",
+        "rating": 4.0
+      },
+      {
+        "name": "9Station Hostel",
+        "stars": 2,
+        "price_per_night": 200000,
+        "area": "Dương Đông",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "tool": "calculate_budget_tool",
+    "result": {
+      "total_budget_vnd": 1500000,
+      "flight_cost": 1100000,
+      "hotel_cost": 400000,
+      "num_nights": 2,
+      "num_travelers": 1
+    }
+  }
+]
+🤖 Agent: Gợi ý cho chuyến Hà Nội -> Phú Quốc 2 đêm:
+- Vé máy bay rẻ nhất: VietJet Air 16:00 - 18:15 (economy) giá 1,100,000 VND
+- Khách sạn giá tốt: 9Station Hostel 2 sao, Dương Đông, 200,000 VND/đêm
+- Tổng chi phí ước tính: 1,500,000 VND (vé: 1,100,000 VND, khách sạn: 400,000 VND)
+Ngân sách 5 triệu là đủ cho phương án tiết kiệm này.
+
+================================================================================
+
+================================================================================
+TEST CASE 1 - 2026-04-07 17:28:38
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+🤖 Agent: Xin chào! Tôi là Travel Buddy, rất vui được đồng hành cùng bạn.
+
+Bạn thích đi biển, lên núi hay tham quan thành phố/di tích lịch sử? Ngoài ra bạn dự định đi trong bao lâu và xuất phát từ đâu?
+
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 17:28:39
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "06:00",
+        "arrival": "07:20",
+        "price": 1450000,
+        "class": "economy"
+      },
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "14:00",
+        "arrival": "15:20",
+        "price": 2800000,
+        "class": "business"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "08:30",
+        "arrival": "09:50",
+        "price": 890000,
+        "class": "economy"
+      },
+      {
+        "airline": "Bamboo Airways",
+        "departure": "11:00",
+        "arrival": "12:20",
+        "price": 1200000,
+        "class": "economy"
+      }
+    ]
+  }
+]
+🤖 Agent: Dưới đây là các chuyến bay từ Hà Nội đến Đà Nẵng:
+- Vietnam Airlines | 06:00 - 07:20 | economy | 1,450,000 VND
+- Vietnam Airlines | 14:00 - 15:20 | business | 2,800,000 VND
+- VietJet Air | 08:30 - 09:50 | economy | 890,000 VND
+- Bamboo Airways | 11:00 - 12:20 | economy | 1,200,000 VND
+
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 17:28:41
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "07:00",
+        "arrival": "09:15",
+        "price": 2100000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "10:00",
+        "arrival": "12:15",
+        "price": 1350000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "16:00",
+        "arrival": "18:15",
+        "price": 1100000,
+        "class": "economy"
+      }
+    ]
+  },
+  {
+    "tool": "search_hotels_tool",
+    "result": [
+      {
+        "name": "Vinpearl Resort",
+        "stars": 5,
+        "price_per_night": 3500000,
+        "area": "Bãi Dài",
+        "rating": 4.4
+      },
+      {
+        "name": "Sol by Melia",
+        "stars": 4,
+        "price_per_night": 1500000,
+        "area": "Bãi Trường",
+        "rating": 4.2
+      },
+      {
+        "name": "Lahana Resort",
+        "stars": 3,
+        "price_per_night": 800000,
+        "area": "Dương Đông",
+        "rating": 4.0
+      },
+      {
+        "name": "9Station Hostel",
+        "stars": 2,
+        "price_per_night": 200000,
+        "area": "Dương Đông",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "tool": "calculate_budget_tool",
+    "result": {
+      "total_budget_vnd": 1500000,
+      "flight_cost": 1100000,
+      "hotel_cost": 400000,
+      "num_nights": 2,
+      "num_travelers": 1
+    }
+  }
+]
+🤖 Agent: Gợi ý cho chuyến Hà Nội -> Phú Quốc 2 đêm:
+- Vé máy bay rẻ nhất: VietJet Air 16:00 - 18:15 (economy) giá 1,100,000 VND
+- Khách sạn giá tốt: 9Station Hostel 2 sao, Dương Đông, 200,000 VND/đêm
+- Tổng chi phí ước tính: 1,500,000 VND (vé: 1,100,000 VND, khách sạn: 400,000 VND)
+Ngân sách 5 triệu là đủ cho phương án tiết kiệm này.
+
+================================================================================
+
+================================================================================
+TEST CASE 4 - 2026-04-07 17:28:44
+Query: Tôi muốn đặt khách sạn
+Output:
+🤖 Agent: Chào bạn! Tôi rất sẵn lòng giúp bạn tìm khách sạn.
+
+Bạn cho tôi biết giúp 3 thông tin nhé:
+1. Thành phố muốn ở
+2. Số đêm dự kiến
+3. Ngân sách cho khách sạn
+
+================================================================================
+
+================================================================================
+TEST CASE 5 - 2026-04-07 17:28:46
+Query: Giải giúp tôi bài tập lập trình Python về linked list
+Output:
+🤖 Agent: Rất tiếc, tôi là Travel Buddy - trợ lý chuyên về du lịch Việt Nam, nên tôi không thể hỗ trợ các vấn đề về lập trình.
+
+Nếu bạn cần lên kế hoạch du lịch, tìm chuyến bay hay khách sạn, hãy cho tôi biết nhé!
+
+================================================================================

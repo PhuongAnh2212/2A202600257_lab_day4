@@ -1,0 +1,170 @@
+
+================================================================================
+TEST CASE 1 - 2026-04-07 17:40:51
+Query: Xin chào! Tôi đang muốn đi du lịch nhưng chưa biết đi đâu.
+Output:
+🤖 Agent: Xin chào! Tôi là Travel Buddy, rất vui được đồng hành cùng bạn.
+
+Bạn thích đi biển, lên núi hay tham quan thành phố/di tích lịch sử? Ngoài ra bạn dự định đi trong bao lâu và xuất phát từ đâu?
+
+================================================================================
+
+================================================================================
+TEST CASE 2 - 2026-04-07 17:41:11
+Query: Tìm giúp tôi chuyến bay từ Hà Nội đi Đà Nẵng
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "06:00",
+        "arrival": "07:20",
+        "price": 1450000,
+        "class": "economy"
+      },
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "14:00",
+        "arrival": "15:20",
+        "price": 2800000,
+        "class": "business"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "08:30",
+        "arrival": "09:50",
+        "price": 890000,
+        "class": "economy"
+      },
+      {
+        "airline": "Bamboo Airways",
+        "departure": "11:00",
+        "arrival": "12:20",
+        "price": 1200000,
+        "class": "economy"
+      }
+    ]
+  }
+]
+🤖 Agent: Dưới đây là danh sách các chuyến bay có sẵn:
+
+*   **Vietnam Airlines**: 06:00 - 07:20 (Economy) - 1.450.000 VNĐ
+*   **Vietnam Airlines**: 14:00 - 15:20 (Business) - 2.800.000 VNĐ
+*   **VietJet Air**: 08:30 - 09:50 (Economy) - 890.000 VNĐ
+*   **Bamboo Airways**: 11:00 - 12:20 (Economy) - 1.200.000 VNĐ
+
+================================================================================
+
+================================================================================
+TEST CASE 3 - 2026-04-07 17:41:37
+Query: Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp!
+Output:
+🤖 Agent: [
+  {
+    "tool": "search_flight_tool",
+    "result": [
+      {
+        "airline": "Vietnam Airlines",
+        "departure": "07:00",
+        "arrival": "09:15",
+        "price": 2100000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "10:00",
+        "arrival": "12:15",
+        "price": 1350000,
+        "class": "economy"
+      },
+      {
+        "airline": "VietJet Air",
+        "departure": "16:00",
+        "arrival": "18:15",
+        "price": 1100000,
+        "class": "economy"
+      }
+    ]
+  },
+  {
+    "tool": "search_hotels_tool",
+    "result": [
+      {
+        "name": "Vinpearl Resort",
+        "stars": 5,
+        "price_per_night": 3500000,
+        "area": "Bãi Dài",
+        "rating": 4.4
+      },
+      {
+        "name": "Sol by Melia",
+        "stars": 4,
+        "price_per_night": 1500000,
+        "area": "Bãi Trường",
+        "rating": 4.2
+      },
+      {
+        "name": "Lahana Resort",
+        "stars": 3,
+        "price_per_night": 800000,
+        "area": "Dương Đông",
+        "rating": 4.0
+      },
+      {
+        "name": "9Station Hostel",
+        "stars": 2,
+        "price_per_night": 200000,
+        "area": "Dương Đông",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "tool": "calculate_budget_tool",
+    "result": {
+      "total_budget_vnd": 1500000,
+      "flight_cost": 1100000,
+      "hotel_cost": 400000,
+      "num_nights": 2,
+      "num_travelers": 1
+    }
+  }
+]
+🤖 Agent: Chào bạn, dựa trên ngân sách **1.500.000 VND** cho 1 người trong 2 đêm, tôi xin tư vấn phương án tối ưu nhất như sau:
+
+**1. Chuyến bay:**
+*   **VietJet Air:** Khởi hành lúc 16:00, đến nơi lúc 18:15.
+*   **Giá vé:** 1.100.000 VND.
+
+**2. Lưu trú (2 đêm):**
+*   **Lựa chọn 1:** **9Station Hostel** (Khu vực Dương Đông, 2 sao, đánh giá 4.5).
+    *   Giá: 200.000 VND/đêm $\rightarrow$ Tổng 2 đêm: 400.000 VND.
+*   **Lựa chọn 2:** **Lahana Resort** (Khu vực Dương Đông, 3 sao, đánh giá 4.0).
+    *   Giá: 800.000 VND/đêm $\rightarrow$ Tổng 2 đêm: 1.600.000 VND (Vượt ngân sách).
+
+**Tổng kết chi phí dự kiến (theo Lựa chọn 1):**
+*   Vé máy bay (1.100.000) + Khách sạn (400.000) = **1.500.000 VND**.
+
+Phương án này vừa vặn tuyệt đối với tổng ngân sách của bạn.
+
+================================================================================
+
+================================================================================
+TEST CASE 4 - 2026-04-07 17:42:01
+Query: Tôi muốn đặt khách sạn
+Output:
+🤖 Agent: Bạn cho tôi biết thành phố, số đêm và ngân sách khách sạn nhé.
+
+================================================================================
+
+================================================================================
+TEST CASE 5 - 2026-04-07 17:42:05
+Query: Giải giúp tôi bài tập lập trình Python về linked list
+Output:
+🤖 Agent: Rất tiếc, tôi là Travel Buddy - trợ lý chuyên về du lịch Việt Nam, nên tôi không thể hỗ trợ các vấn đề về lập trình.
+
+Nếu bạn cần lên kế hoạch du lịch, tìm chuyến bay hay khách sạn, hãy cho tôi biết nhé!
+
+================================================================================
